@@ -2,6 +2,10 @@ import React from 'react'
 
 
 export default class Login extends React.Component {
+    state = {
+        email: '',
+        password: ''
+    }
     render (){
         return (
 <div className='col-lg-9'>\
@@ -9,12 +13,12 @@ export default class Login extends React.Component {
 {/* Email starts */}
 <div className='form-group form-row'>
 <label className='col-lg-4'>Email</label>
-<input type='text' className='form-control'/>
+<input type='text' value={this.state.email}  className='form-control'/>
 </div>
 {/* Email ends */}
 <div className='form-group form-row'>
 <label className='col-lg-4'>Password</label>
-<input type='password' className='form-control'/>
+<input type='password' value={this.state.password} className='form-control'/>
 </div>
 </div>
         )
