@@ -1,11 +1,11 @@
 {
     "products":[
-        {"id":1,"productName": "iPhone","price":89000, "quantity":0},
-        {"id":2,"productName":"samsung TV","price":89000, "quantity":0},
-        {"id":3,"productName":"iPad","price":89000, "quantity":0},
-        {"id":4,"productName":"laserEmitter","price":89000, "quantity":0},
-        {"id":5,"productName":"QQD Monitor","price":89000, "quantity":0},
-        {"id":6,"productName":"iPhone 7","price":89000, "quantity":0}
+        {"id":1,"productName": "iPhone","photo":"https://phonesstorekenya.com/wp-content/uploads/2019/09/Apple-iPhone-11-Pro-Gray.jpg","price":89000, "quantity":0},
+        {"id":2,"productName":"samsung TV","photo":"https://copia.co.ke/wp-content/uploads/2021/02/Amtec-32-Digital-LED-TV-Black._Televisions_22705_1.jpeg","price":89000, "quantity":0},
+        {"id":3,"productName":"iPad","photo":"https://www.saruk.co.ke/images/73011626692147.jpeg","price":78000, "quantity":0},
+        {"id":4,"productName":"Music system","photo":"https://copia.co.ke/wp-content/uploads/2021/05/KA376_3470-3-510x510.jpg","price":109000, "quantity":0},
+        {"id":5,"productName":"QQD Monitor","photo":"https://www.dataworld.co.ke/wp-content/uploads/2021/09/Samsung-22-inch-FHD-Flat-Monitor-LS22A330NHMXUE-scaled.jpg","price":89000, "quantity":0},
+        {"id":6,"productName":"iPhone 7","photo":"https://skygarden.azureedge.net/media/products/952249-3dc4980f23c84dae9b2e078dddf2bd02.jpg","price":67800, "quantity":0}
 
 ]
 

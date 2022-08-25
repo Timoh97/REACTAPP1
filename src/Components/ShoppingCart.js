@@ -63,6 +63,7 @@ this.setState({products:allProducts}
         var response = await fetch("http://localhost:5000/products", {method:'GET'})
   
        var prods = await response.json()
+       
       this.setState({products:prods})
     }
 }
