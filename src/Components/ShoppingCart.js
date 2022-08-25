@@ -6,15 +6,7 @@ import Product from './Product'
 class ShoppingCart extends React.Component {
 
 state ={
-    products:[
-        {id:1,productName:'iPhone',price:89000, quantity:0},
-        {id:2,productName:'HTC',price:89000, quantity:0},
-        {id:3,productName:'Samsung',price:89000, quantity:0},
-        {id:4,productName:'OPPO',price:89000, quantity:0},
-        {id:5,productName:'Techno',price:89000, quantity:0},
-        {id:6,productName:'Redmi',price:89000, quantity:0}
-
-]
+    products:[]
 }
 
 handleIncrement =(product,maxVal)=>{
@@ -64,6 +56,14 @@ this.setState({products:allProducts}
                 </div>
             </div>
         )
+    }
+
+    componentDidMount = async ()=>{
+        //fetch data from source
+        var response = await fetch("http://localhost:5000/products", {method:'GET'})
+  
+       var prods = await response.json()
+      this.setState({products:prods})
     }
 }
 
